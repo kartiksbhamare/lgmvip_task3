@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    /* fail safe */
+    background-color: rgb(96, 224, 224);
+
+    /* Radial gradient background - csss3 */
+     background: radial-gradient(rgba(82, 153, 141, 0.5), rgba(114, 117, 150, 0.5), rgba(12, 66, 39, 0.3));
+     text-align: center;
+}
+#nameDiv {
+    margin-top: 100px;
+}
+.input {
+    font-size: 23px;
+    color: black;
+    font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
+    margin: 18px;
+}
+#entry {
+    width: 185px;
+    height: 38px;
+    font-size: 23px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(7, 144, 168);
+    color: rgb(8, 8, 8);
+    box-shadow: 0 2px 2px 0 rgba(8, 8, 8, 0.5);
+    margin-top: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: radial-gradient(rgba(167, 8, 230, 0.5), rgba(12, 245, 70, 0.5), rgba(22, 141, 253, 0.3));
+}
+table, th, td {
+    border: 2px solid black;
+    padding: 5px;
+}
+th {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+td {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    
+}
